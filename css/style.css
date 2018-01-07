@@ -1,0 +1,50 @@
+html {
+  font-size: 62.5%;
+  font-family: 'Lato', sans-serif; }
+
+.header {
+  padding-top: 3rem; }
+  .header__logo {
+    font-size: 5.5rem;
+    color: white; }
+  .header__icon {
+    cursor: pointer;
+    height: 3.4rem;
+    align-self: center; }
+
+.d-flex {
+  display: flex; }
+
+.space-between {
+  justify-content: space-between; }
+
+.align-center {
+  align-items: center; }
+
+.justify-center {
+  text-align: center;
+  justify-content: center; }
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto; }
+
+.hero {
+  background-image: url("../img/hero-bg.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  color: white; }
+  .hero__icon {
+    padding-top: 7.5rem;
+    padding-bottom: 4rem; }
+  .hero__sub {
+    font-size: 3rem;
+    width: 90%;
+    max-width: 42rem;
+    padding-bottom: 6rem; }
+  .hero__arrow {
+    padding-bottom: 6rem;
+    position: relative;
+    left: -2px; }
+    .hero__arrow:hover {
+      cursor: pointer; }
