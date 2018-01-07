@@ -29,8 +29,12 @@ html {
   margin-left: auto;
   margin-right: auto; }
 
+.heigth100 {
+  height: 100% !important; }
+
 .hero {
   background-image: url("../img/hero-bg.png");
+  margin-bottom: 3rem;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   color: white; }
@@ -48,3 +52,19 @@ html {
     left: -2px; }
     .hero__arrow:hover {
       cursor: pointer; }
+
+.onama {
+  background-color: #f8f8f8;
+  padding: 4rem 2rem; }
+  .onama__heading {
+    margin-bottom: 3rem; }
+  .onama__para {
+    font-size: 2.4rem;
+    line-height: 3.2rem; }
+  .onama__img {
+    height: 100%;
+    width: 100%; }
+
+.section-heading {
+  font-size: 3.6rem;
+  font-weight: bold; }
