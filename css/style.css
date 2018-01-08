@@ -110,13 +110,14 @@ html {
   .team__heading {
     margin-bottom: 4rem; }
 
-.member__name {
-  font-size: 3rem;
-  margin-bottom: 1rem; }
-
-.member__sub {
-  color: red;
-  letter-spacing: 2px;
-  font-weight: 300;
-  font-size: 2rem;
-  line-height: 3rem; }
+.member {
+  padding: 1.5rem 0; }
+  .member__name {
+    font-size: 3rem;
+    margin-bottom: 1rem; }
+  .member__sub {
+    color: red;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 3rem; }
