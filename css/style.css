@@ -39,6 +39,7 @@ html {
   background-image: url("../img/hero-bg.png");
   margin-bottom: 3rem;
   background-position: 50% 50%;
+  background-size: cover;
   background-repeat: no-repeat;
   color: white; }
   .hero__icon {
