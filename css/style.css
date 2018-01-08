@@ -32,6 +32,9 @@ html {
 .heigth100 {
   height: 100% !important; }
 
+.big-text {
+  font-size: 3rem; }
+
 .hero {
   background-image: url("../img/hero-bg.png");
   margin-bottom: 3rem;
@@ -81,3 +84,14 @@ html {
       .projects__img {
         width: 95%;
         text-align: center; } }
+
+.gallery {
+  background-color: #f8f8f8;
+  padding: 3rem 0; }
+  .gallery__heading {
+    padding-bottom: 5rem; }
+  .gallery__container {
+    width: 60%; }
+    .gallery__container ul {
+      height: 100%;
+      width: 100%; }

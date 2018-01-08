@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.3/css/bootstrap-grid.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="/js/slippry.min.js"></script>
-    <link rel="stylesheet" href="/css/slippry.css" />
+    <script src="js/slippry.min.js"></script>
+    <link rel="stylesheet" href="css/slippry.css" />
     
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
@@ -50,7 +50,7 @@
 <section class="projects container">
     <h1 class="projects__title section-heading projects__heading justify-center ">Pogle' neke od nasih segzy projegata</h1>
    
-
+    
     <img src="img/projekat1.png" class="projects__img" alt="">
     <img src="img/projekat1.png"class="projects__img"  alt="">
     <img src="img/projekat1.png" class="projects__img" alt="">
@@ -65,6 +65,37 @@
 </section>
 
 
+<section class="gallery container justify-center">
+    <h2 class="section-heading gallery__heading">Kako izleda dan u KTZ-u</h2>
+
+
+    <div class="gallery__container mx-auto">
+      
+    <ul id="slippry-demo" >
+            <li>
+              <a href="#slide1"><img src="img/projekat1.png" alt="  <span class='big-text'>Prva slika</span>"></a>
+            </li>
+            <li>
+              <a href="#slide2"><img src="img/projekat2.png"  alt="  <span class='big-text'>druga slika</span>"></a>
+            </li>
+            <li>
+              <a href="#slide3"><img src="img/projekat3.png" alt="  <span class='big-text'>treca slika</span>"></a>
+            </li>
+          </ul>
+
+        </div>
+
+
+
+</section>
+
+
+
+<script>
+    jQuery(document).ready(function(){
+  jQuery('#slippry-demo').slippry()
+});
+</script>
 
 </body>
 </html>
