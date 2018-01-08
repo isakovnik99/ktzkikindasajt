@@ -35,6 +35,9 @@ html {
 .big-text {
   font-size: 3rem; }
 
+.mb-md {
+  margin-bottom: 5rem; }
+
 .hero {
   background-image: url("../img/hero-bg.png");
   margin-bottom: 3rem;
@@ -93,6 +96,27 @@ html {
     padding-bottom: 5rem; }
   .gallery__container {
     width: 60%; }
+    @media only screen and (max-width: 767px) {
+      .gallery__container {
+        width: 100%;
+        text-align: center; } }
     .gallery__container ul {
       height: 100%;
       width: 100%; }
+
+.team {
+  background-color: #ffffff;
+  padding: 3rem 0; }
+  .team__heading {
+    margin-bottom: 4rem; }
+
+.member__name {
+  font-size: 3rem;
+  margin-bottom: 1rem; }
+
+.member__sub {
+  color: red;
+  letter-spacing: 2px;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 3rem; }
