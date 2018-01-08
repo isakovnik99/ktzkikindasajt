@@ -68,3 +68,12 @@ html {
 .section-heading {
   font-size: 3.6rem;
   font-weight: bold; }
+
+.projects {
+  padding: 4rem 0; }
+  .projects__heading {
+    padding-bottom: 3.5rem; }
+  .projects__img {
+    width: 49%;
+    padding: 1rem;
+    cursor: pointer; }
